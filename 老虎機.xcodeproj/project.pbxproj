@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C19C37EE13CD35AA00E115F3 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = C19C37ED13CD35AA00E115F3 /* help.png */; };
+		C19DB76F13CC844800365179 /* currency_dollar_green.png in Resources */ = {isa = PBXBuildFile; fileRef = C19DB76E13CC844800365179 /* currency_dollar_green.png */; };
 		C1A2B4AB13CBF90E00E0278F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A2B4AA13CBF90E00E0278F /* UIKit.framework */; };
 		C1A2B4AD13CBF90E00E0278F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A2B4AC13CBF90E00E0278F /* Foundation.framework */; };
 		C1A2B4AF13CBF90E00E0278F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A2B4AE13CBF90E00E0278F /* CoreGraphics.framework */; };
@@ -22,6 +24,15 @@
 		C1A2B4D513CBF90E00E0278F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1A2B4D313CBF90E00E0278F /* InfoPlist.strings */; };
 		C1A2B4D813CBF90E00E0278F /* testpickerviewTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C1A2B4D713CBF90E00E0278F /* testpickerviewTests.h */; };
 		C1A2B4DA13CBF90E00E0278F /* testpickerviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A2B4D913CBF90E00E0278F /* testpickerviewTests.m */; };
+		C1A2F1B813CC202200208A51 /* face_monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = C1A2F1B713CC202200208A51 /* face_monkey.png */; };
+		C1A2F1C013CC203000208A51 /* games.png in Resources */ = {isa = PBXBuildFile; fileRef = C1A2F1BA13CC203000208A51 /* games.png */; };
+		C1A2F1C113CC203000208A51 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = C1A2F1BB13CC203000208A51 /* happy.png */; };
+		C1A2F1C213CC203000208A51 /* redhat_games.png in Resources */ = {isa = PBXBuildFile; fileRef = C1A2F1BC13CC203000208A51 /* redhat_games.png */; };
+		C1A2F1C313CC203000208A51 /* sleeping_santaclaus.png in Resources */ = {isa = PBXBuildFile; fileRef = C1A2F1BD13CC203000208A51 /* sleeping_santaclaus.png */; };
+		C1A2F1C513CC203000208A51 /* tsitter_square_sleeping.png in Resources */ = {isa = PBXBuildFile; fileRef = C1A2F1BF13CC203000208A51 /* tsitter_square_sleeping.png */; };
+		CC1A7517165A327D00B99399 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1A7516165A327D00B99399 /* Default-568h@2x.png */; };
+		CC1A7519165B2DAD00B99399 /* iPhone_Glossy_Icon_IMG_0563.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1A7518165B2DAD00B99399 /* iPhone_Glossy_Icon_IMG_0563.png */; };
+		CC1A751B165B2DB000B99399 /* iPhoneRetina_Glossy_Icon_IMG_0563.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1A751A165B2DB000B99399 /* iPhoneRetina_Glossy_Icon_IMG_0563.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +46,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C1A2B4A613CBF90E00E0278F /* testpickerview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testpickerview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19C37ED13CD35AA00E115F3 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		C19DB76E13CC844800365179 /* currency_dollar_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currency_dollar_green.png; sourceTree = "<group>"; };
+		C1A2B4A613CBF90E00E0278F /* 老虎機.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "老虎機.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A2B4AA13CBF90E00E0278F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C1A2B4AC13CBF90E00E0278F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C1A2B4AE13CBF90E00E0278F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C1A2B4B213CBF90E00E0278F /* testpickerview-Info.plist */ = {isa = PBXFileReference; path = "testpickerview-Info.plist"; sourceTree = "<group>"; };
+		C1A2B4B213CBF90E00E0278F /* 老虎機-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "老虎機-Info.plist"; sourceTree = "<group>"; };
 		C1A2B4B413CBF90E00E0278F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C1A2B4B613CBF90E00E0278F /* testpickerview-Prefix.pch */ = {isa = PBXFileReference; path = "testpickerview-Prefix.pch"; sourceTree = "<group>"; };
+		C1A2B4B613CBF90E00E0278F /* 老虎機-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "老虎機-Prefix.pch"; sourceTree = "<group>"; };
 		C1A2B4B713CBF90E00E0278F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C1A2B4B913CBF90E00E0278F /* testpickerviewAppDelegate.h */ = {isa = PBXFileReference; path = testpickerviewAppDelegate.h; sourceTree = "<group>"; };
-		C1A2B4BA13CBF90E00E0278F /* testpickerviewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testpickerviewAppDelegate.m; sourceTree = "<group>"; };
+		C1A2B4B913CBF90E00E0278F /* testpickerviewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testpickerviewAppDelegate.h; path = testpickerview/testpickerviewAppDelegate.h; sourceTree = "<group>"; };
+		C1A2B4BA13CBF90E00E0278F /* testpickerviewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = testpickerviewAppDelegate.m; path = testpickerview/testpickerviewAppDelegate.m; sourceTree = "<group>"; };
 		C1A2B4BD13CBF90E00E0278F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		C1A2B4BF13CBF90E00E0278F /* testpickerviewViewController.h */ = {isa = PBXFileReference; path = testpickerviewViewController.h; sourceTree = "<group>"; };
-		C1A2B4C013CBF90E00E0278F /* testpickerviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testpickerviewViewController.m; sourceTree = "<group>"; };
+		C1A2B4BF13CBF90E00E0278F /* testpickerviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testpickerviewViewController.h; path = testpickerview/testpickerviewViewController.h; sourceTree = "<group>"; };
+		C1A2B4C013CBF90E00E0278F /* testpickerviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = testpickerviewViewController.m; path = testpickerview/testpickerviewViewController.m; sourceTree = "<group>"; };
 		C1A2B4C313CBF90E00E0278F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/testpickerviewViewController.xib; sourceTree = "<group>"; };
-		C1A2B4CA13CBF90E00E0278F /* testpickerviewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testpickerviewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1A2B4D213CBF90E00E0278F /* testpickerviewTests-Info.plist */ = {isa = PBXFileReference; path = "testpickerviewTests-Info.plist"; sourceTree = "<group>"; };
+		C1A2B4CA13CBF90E00E0278F /* 老虎機Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "老虎機Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A2B4D213CBF90E00E0278F /* 老虎機Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "老虎機Tests-Info.plist"; sourceTree = "<group>"; };
 		C1A2B4D413CBF90E00E0278F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C1A2B4D613CBF90E00E0278F /* testpickerviewTests-Prefix.pch */ = {isa = PBXFileReference; path = "testpickerviewTests-Prefix.pch"; sourceTree = "<group>"; };
+		C1A2B4D613CBF90E00E0278F /* 老虎機Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "老虎機Tests-Prefix.pch"; sourceTree = "<group>"; };
 		C1A2B4D713CBF90E00E0278F /* testpickerviewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testpickerviewTests.h; sourceTree = "<group>"; };
 		C1A2B4D913CBF90E00E0278F /* testpickerviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testpickerviewTests.m; sourceTree = "<group>"; };
+		C1A2F1B713CC202200208A51 /* face_monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = face_monkey.png; path = testpickerview/face_monkey.png; sourceTree = "<group>"; };
+		C1A2F1BA13CC203000208A51 /* games.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = games.png; sourceTree = "<group>"; };
+		C1A2F1BB13CC203000208A51 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
+		C1A2F1BC13CC203000208A51 /* redhat_games.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redhat_games.png; sourceTree = "<group>"; };
+		C1A2F1BD13CC203000208A51 /* sleeping_santaclaus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleeping_santaclaus.png; sourceTree = "<group>"; };
+		C1A2F1BF13CC203000208A51 /* tsitter_square_sleeping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tsitter_square_sleeping.png; sourceTree = "<group>"; };
+		CC1A7516165A327D00B99399 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CC1A7518165B2DAD00B99399 /* iPhone_Glossy_Icon_IMG_0563.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_Glossy_Icon_IMG_0563.png; sourceTree = "<group>"; };
+		CC1A751A165B2DB000B99399 /* iPhoneRetina_Glossy_Icon_IMG_0563.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneRetina_Glossy_Icon_IMG_0563.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +103,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B85244615EDE3E100242419 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1A2B4B913CBF90E00E0278F /* testpickerviewAppDelegate.h */,
+				C1A2B4BA13CBF90E00E0278F /* testpickerviewAppDelegate.m */,
+				C1A2B4BC13CBF90E00E0278F /* MainWindow.xib */,
+				C1A2B4BF13CBF90E00E0278F /* testpickerviewViewController.h */,
+				C1A2B4C013CBF90E00E0278F /* testpickerviewViewController.m */,
+				C1A2B4C213CBF90E00E0278F /* testpickerviewViewController.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		9B85244815EDE41E00242419 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				9B85244915EDE43200242419 /* Image */,
+			);
+			name = Res;
+			sourceTree = "<group>";
+		};
+		9B85244915EDE43200242419 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C1A2F1BA13CC203000208A51 /* games.png */,
+				C19C37ED13CD35AA00E115F3 /* help.png */,
+				C1A2F1BB13CC203000208A51 /* happy.png */,
+				C1A2F1BC13CC203000208A51 /* redhat_games.png */,
+				C19DB76E13CC844800365179 /* currency_dollar_green.png */,
+				C1A2F1BD13CC203000208A51 /* sleeping_santaclaus.png */,
+				C1A2F1BF13CC203000208A51 /* tsitter_square_sleeping.png */,
+				C1A2F1B713CC202200208A51 /* face_monkey.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		C1A2B49B13CBF90D00E0278F = {
 			isa = PBXGroup;
 			children = (
-				C1A2B4B013CBF90E00E0278F /* testpickerview */,
+				CC1A751A165B2DB000B99399 /* iPhoneRetina_Glossy_Icon_IMG_0563.png */,
+				CC1A7518165B2DAD00B99399 /* iPhone_Glossy_Icon_IMG_0563.png */,
+				CC1A7516165A327D00B99399 /* Default-568h@2x.png */,
+				9B85244615EDE3E100242419 /* Classes */,
+				9B85244815EDE41E00242419 /* Res */,
+				C1A2B4B113CBF90E00E0278F /* Supporting Files */,
 				C1A2B4D013CBF90E00E0278F /* testpickerviewTests */,
 				C1A2B4A913CBF90E00E0278F /* Frameworks */,
 				C1A2B4A713CBF90E00E0278F /* Products */,
@@ -94,8 +157,8 @@
 		C1A2B4A713CBF90E00E0278F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1A2B4A613CBF90E00E0278F /* testpickerview.app */,
-				C1A2B4CA13CBF90E00E0278F /* testpickerviewTests.octest */,
+				C1A2B4A613CBF90E00E0278F /* 老虎機.app */,
+				C1A2B4CA13CBF90E00E0278F /* 老虎機Tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,29 +173,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C1A2B4B013CBF90E00E0278F /* testpickerview */ = {
-			isa = PBXGroup;
-			children = (
-				C1A2B4B913CBF90E00E0278F /* testpickerviewAppDelegate.h */,
-				C1A2B4BA13CBF90E00E0278F /* testpickerviewAppDelegate.m */,
-				C1A2B4BC13CBF90E00E0278F /* MainWindow.xib */,
-				C1A2B4BF13CBF90E00E0278F /* testpickerviewViewController.h */,
-				C1A2B4C013CBF90E00E0278F /* testpickerviewViewController.m */,
-				C1A2B4C213CBF90E00E0278F /* testpickerviewViewController.xib */,
-				C1A2B4B113CBF90E00E0278F /* Supporting Files */,
-			);
-			path = testpickerview;
-			sourceTree = "<group>";
-		};
 		C1A2B4B113CBF90E00E0278F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C1A2B4B213CBF90E00E0278F /* testpickerview-Info.plist */,
+				C1A2B4B213CBF90E00E0278F /* 老虎機-Info.plist */,
 				C1A2B4B313CBF90E00E0278F /* InfoPlist.strings */,
-				C1A2B4B613CBF90E00E0278F /* testpickerview-Prefix.pch */,
+				C1A2B4B613CBF90E00E0278F /* 老虎機-Prefix.pch */,
 				C1A2B4B713CBF90E00E0278F /* main.m */,
 			);
 			name = "Supporting Files";
+			path = testpickerview;
 			sourceTree = "<group>";
 		};
 		C1A2B4D013CBF90E00E0278F /* testpickerviewTests */ = {
@@ -148,9 +198,9 @@
 		C1A2B4D113CBF90E00E0278F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C1A2B4D213CBF90E00E0278F /* testpickerviewTests-Info.plist */,
+				C1A2B4D213CBF90E00E0278F /* 老虎機Tests-Info.plist */,
 				C1A2B4D313CBF90E00E0278F /* InfoPlist.strings */,
-				C1A2B4D613CBF90E00E0278F /* testpickerviewTests-Prefix.pch */,
+				C1A2B4D613CBF90E00E0278F /* 老虎機Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,9 +208,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C1A2B4A513CBF90E00E0278F /* testpickerview */ = {
+		C1A2B4A513CBF90E00E0278F /* 老虎機 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1A2B4DD13CBF90E00E0278F /* Build configuration list for PBXNativeTarget "testpickerview" */;
+			buildConfigurationList = C1A2B4DD13CBF90E00E0278F /* Build configuration list for PBXNativeTarget "老虎機" */;
 			buildPhases = (
 				C1A2B4A213CBF90E00E0278F /* Sources */,
 				C1A2B4A313CBF90E00E0278F /* Frameworks */,
@@ -170,14 +220,14 @@
 			);
 			dependencies = (
 			);
-			name = testpickerview;
+			name = "老虎機";
 			productName = testpickerview;
-			productReference = C1A2B4A613CBF90E00E0278F /* testpickerview.app */;
+			productReference = C1A2B4A613CBF90E00E0278F /* 老虎機.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C1A2B4C913CBF90E00E0278F /* testpickerviewTests */ = {
+		C1A2B4C913CBF90E00E0278F /* 老虎機Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1A2B4E013CBF90E00E0278F /* Build configuration list for PBXNativeTarget "testpickerviewTests" */;
+			buildConfigurationList = C1A2B4E013CBF90E00E0278F /* Build configuration list for PBXNativeTarget "老虎機Tests" */;
 			buildPhases = (
 				C1A2B4C513CBF90E00E0278F /* Sources */,
 				C1A2B4C613CBF90E00E0278F /* Frameworks */,
@@ -189,9 +239,9 @@
 			dependencies = (
 				C1A2B4CF13CBF90E00E0278F /* PBXTargetDependency */,
 			);
-			name = testpickerviewTests;
+			name = "老虎機Tests";
 			productName = testpickerviewTests;
-			productReference = C1A2B4CA13CBF90E00E0278F /* testpickerviewTests.octest */;
+			productReference = C1A2B4CA13CBF90E00E0278F /* 老虎機Tests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -200,9 +250,9 @@
 		C1A2B49D13CBF90D00E0278F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = cqupt;
+				ORGANIZATIONNAME = crazypoo;
 			};
-			buildConfigurationList = C1A2B4A013CBF90D00E0278F /* Build configuration list for PBXProject "testpickerview" */;
+			buildConfigurationList = C1A2B4A013CBF90D00E0278F /* Build configuration list for PBXProject "老虎機" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -214,8 +264,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1A2B4A513CBF90E00E0278F /* testpickerview */,
-				C1A2B4C913CBF90E00E0278F /* testpickerviewTests */,
+				C1A2B4A513CBF90E00E0278F /* 老虎機 */,
+				C1A2B4C913CBF90E00E0278F /* 老虎機Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,6 +278,17 @@
 				C1A2B4B513CBF90E00E0278F /* InfoPlist.strings in Resources */,
 				C1A2B4BE13CBF90E00E0278F /* MainWindow.xib in Resources */,
 				C1A2B4C413CBF90E00E0278F /* testpickerviewViewController.xib in Resources */,
+				C1A2F1B813CC202200208A51 /* face_monkey.png in Resources */,
+				C1A2F1C013CC203000208A51 /* games.png in Resources */,
+				C1A2F1C113CC203000208A51 /* happy.png in Resources */,
+				C1A2F1C213CC203000208A51 /* redhat_games.png in Resources */,
+				C1A2F1C313CC203000208A51 /* sleeping_santaclaus.png in Resources */,
+				C1A2F1C513CC203000208A51 /* tsitter_square_sleeping.png in Resources */,
+				C19DB76F13CC844800365179 /* currency_dollar_green.png in Resources */,
+				C19C37EE13CD35AA00E115F3 /* help.png in Resources */,
+				CC1A7517165A327D00B99399 /* Default-568h@2x.png in Resources */,
+				CC1A7519165B2DAD00B99399 /* iPhone_Glossy_Icon_IMG_0563.png in Resources */,
+				CC1A751B165B2DB000B99399 /* iPhoneRetina_Glossy_Icon_IMG_0563.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +343,7 @@
 /* Begin PBXTargetDependency section */
 		C1A2B4CF13CBF90E00E0278F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C1A2B4A513CBF90E00E0278F /* testpickerview */;
+			target = C1A2B4A513CBF90E00E0278F /* 老虎機 */;
 			targetProxy = C1A2B4CE13CBF90E00E0278F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -302,6 +363,7 @@
 				C1A2B4BD13CBF90E00E0278F /* en */,
 			);
 			name = MainWindow.xib;
+			path = testpickerview;
 			sourceTree = "<group>";
 		};
 		C1A2B4C213CBF90E00E0278F /* testpickerviewViewController.xib */ = {
@@ -310,6 +372,7 @@
 				C1A2B4C313CBF90E00E0278F /* en */,
 			);
 			name = testpickerviewViewController.xib;
+			path = testpickerview;
 			sourceTree = "<group>";
 		};
 		C1A2B4D313CBF90E00E0278F /* InfoPlist.strings */ = {
@@ -359,12 +422,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 傑豪 鄧 (RYR2KG82CG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 傑豪 鄧 (RYR2KG82CG)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testpickerview/testpickerview-Prefix.pch";
-				INFOPLIST_FILE = "testpickerview/testpickerview-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "testpickerview/老虎機-Prefix.pch";
+				INFOPLIST_FILE = "testpickerview/老虎機-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "老虎機";
+				PROVISIONING_PROFILE = "ED1BCAD5-A347-4464-AEB4-AC44E83952E5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "57CA47C4-9065-43B2-96DB-C9B2E4B24D26";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,11 +441,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 傑豪 鄧 (RYR2KG82CG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 傑豪 鄧 (RYR2KG82CG)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testpickerview/testpickerview-Prefix.pch";
-				INFOPLIST_FILE = "testpickerview/testpickerview-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "testpickerview/老虎機-Prefix.pch";
+				INFOPLIST_FILE = "testpickerview/老虎機-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "老虎機";
+				PROVISIONING_PROFILE = "ED1BCAD5-A347-4464-AEB4-AC44E83952E5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "57CA47C4-9065-43B2-96DB-C9B2E4B24D26";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,13 +466,13 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testpickerviewTests/testpickerviewTests-Prefix.pch";
-				INFOPLIST_FILE = "testpickerviewTests/testpickerviewTests-Info.plist";
+				GCC_PREFIX_HEADER = "testpickerviewTests/老虎機Tests-Prefix.pch";
+				INFOPLIST_FILE = "testpickerviewTests/老虎機Tests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
 					SenTestingKit,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "老虎機Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -415,13 +488,13 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testpickerviewTests/testpickerviewTests-Prefix.pch";
-				INFOPLIST_FILE = "testpickerviewTests/testpickerviewTests-Info.plist";
+				GCC_PREFIX_HEADER = "testpickerviewTests/老虎機Tests-Prefix.pch";
+				INFOPLIST_FILE = "testpickerviewTests/老虎機Tests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
 					SenTestingKit,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "老虎機Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -430,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1A2B4A013CBF90D00E0278F /* Build configuration list for PBXProject "testpickerview" */ = {
+		C1A2B4A013CBF90D00E0278F /* Build configuration list for PBXProject "老虎機" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1A2B4DB13CBF90E00E0278F /* Debug */,
@@ -439,21 +512,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1A2B4DD13CBF90E00E0278F /* Build configuration list for PBXNativeTarget "testpickerview" */ = {
+		C1A2B4DD13CBF90E00E0278F /* Build configuration list for PBXNativeTarget "老虎機" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1A2B4DE13CBF90E00E0278F /* Debug */,
 				C1A2B4DF13CBF90E00E0278F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C1A2B4E013CBF90E00E0278F /* Build configuration list for PBXNativeTarget "testpickerviewTests" */ = {
+		C1A2B4E013CBF90E00E0278F /* Build configuration list for PBXNativeTarget "老虎機Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1A2B4E113CBF90E00E0278F /* Debug */,
 				C1A2B4E213CBF90E00E0278F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
